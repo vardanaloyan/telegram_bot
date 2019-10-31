@@ -16,7 +16,7 @@ updater = Updater(token='')
 
 dispatcher = updater.dispatcher
 
-blocked_ids = {"Avet": 519269361}
+blocked_ids = {}
 
 def orbit(bot, update):
     if update.message.from_user.id == 726041690:
